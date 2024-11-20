@@ -1,0 +1,1 @@
+document.addEventListener('DOMContentLoaded',()=>{const closeButtons=document.querySelectorAll('.btn-close');closeButtons.forEach(button=>{button.addEventListener('click',()=>{const alert=button.closest('.alert');alert.remove()})})})
